@@ -140,6 +140,132 @@
         top: 50px;
     }
 
+    .jobs {
+        width: 80%;
+        margin: 0 0 0 10%;
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .jobs .clients,
+    .projects,
+    .students {
+        width: 100%;
+        display: flex;
+    }
+
+    .jobs .clients .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .jobs .projects .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .jobs .students .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* about blog */
+    .about-blog {
+        width: 90%;
+        height: 1000px;
+        /* border: 2px solid green; */
+        position: absolute;
+        margin: 550px 0 0 5%;
+    }
+
+    .about-blog .row .col:nth-child(1) {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+        /* padding: 0; */
+        margin: 0;
+        display: block;
+    }
+
+    .about-blog .row .col:nth-child(2) {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-blog .row .col:nth-child(2) {
+        background-image: url(../image/hacker2.jpg);
+        background-size: cover;
+    }
+
+    .about-blog .row .col .body-content .row {
+        display: flex;
+        margin: 0.6rem 0 0 0;
+        flex-direction: row;
+       
+
+    
+    }
+    .about-blog .row .col .body-content .row .col-content{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .about-blog .row .col .body-content .row .col-content h2{
+        font-size: 0.9rem;
+        background-image: none;
+    }
+    .about-blog .row .col .body-content .row .col-content h4{
+        font-size: 0.6rem;
+        background-image: none;
+        
+
+    }
+
+    .reason{
+        width: 90%;
+        height: auto;
+        /* border: 2px solid red; */
+        margin: 1570px 0 0 5%;
+        /* background: #f2f2f2; */
+    
+    }
+
+    .reason-title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 1.2rem;
+        color: #333;
+    
+    }
+    .reason-title h2{
+        color: #111;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .reason-contents{
+        width: 100%;
+        height: auto;
+        display: block;
+        /* justify-content: space-evenly; */
+        margin: 2rem 0 0 0;
+    }
+    .reason-contents .col-reason-contents{
+        width: 100%;
+    }
+    
+    .reason-contents .col-reason-contents .title{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
 }
 
 /* Normal iPad */
