@@ -21,12 +21,18 @@ header {
     height: 10%;
     /* border: 1px solid red; */
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    position: fixed;
+    z-index: 1;
+    background: transparent;
+    backdrop-filter: blur(1rem);
 }
 
 nav {
     width: 100%;
     height: 100%;
     display: flex;
+    /* position: absolute; */
+    /* z-index: 1; */
 
 }
 
@@ -39,6 +45,7 @@ header nav .logo {
     align-items: center;
     font-size: 1.3rem;
     font-weight: 600;
+    z-index: 1;
 }
 
 .hamburger {
@@ -51,12 +58,14 @@ header nav .tabs {
     justify-content: end;
     align-items: center;
     z-index: 1;
+    /* background: red; */
 }
 
 ul {
     list-style: none;
     display: flex;
     font-size: 1.1rem;
+    /* background: red; */
     /* font-weight: 100; */
     /* font-weight: 100; */
     /* justify-content: space-evenly; */
@@ -538,7 +547,7 @@ ul li .registerBtn {
 /* about blog */
 .about-blog {
     width: 80%;
-    height: 600px;
+    height: 610px;
     background: #fff;
     /* border: 2px solid green; */
     position: absolute;
@@ -647,7 +656,7 @@ ul li .registerBtn {
     width: 80%;
     height: auto;
     /* border: 2px solid red; */
-    margin: 830px 0 0 10%;
+    margin: 840px 0 0 10%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -693,4 +702,36 @@ ul li .registerBtn {
     line-height: 1.3;
     color: #333;
     font-weight: 300;
+}
+
+.service{
+    width: 80%;
+    margin: 5% 0 0 10%;
+}
+
+.service-title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.service-title h2{
+    color: #111;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.service .service-row:nth-child(2){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.service .service-row:nth-child(2) .service-col{
+    width: 31%;
+    height: 300px;
+    border: 2px solid blue;
+}
+
+.service .service-row:nth-child(2) .service-col .service-title{
+    margin: 1.5rem 0 0 0;
+}
+.service .service-row:nth-child(2) .service-col .service-body-content{
+    text-align: center;
 }
