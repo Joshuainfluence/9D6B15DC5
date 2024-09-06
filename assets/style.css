@@ -91,6 +91,12 @@ ul li .registerBtn {
     background-color: #333;
     color: #fff;
     margin: -0.4rem 4rem 0 0;
+    transition: 0.3s all ease;
+}
+
+ul li .registerBtn:hover{
+    background: #ccc;
+    border: 1px solid #ccc;
 }
 
 /* light and dark toggle */
@@ -509,6 +515,8 @@ ul li .registerBtn {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    color: #ccc;
+
     flex-direction: column;
     /* flex-wrap: wrap; */
     /* flex-wrap: wrap; */
@@ -524,6 +532,7 @@ ul li .registerBtn {
     margin: 0;
     align-items: center;
     font-size: 2rem;
+
     /* flex-direction: column; */
     flex-wrap: wrap;
     /* flex-wrap: wrap; */
@@ -721,12 +730,22 @@ ul li .registerBtn {
 .service .service-row:nth-child(2){
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
 }
 .service .service-row:nth-child(2) .service-col{
     width: 31%;
     height: 300px;
-    border: 2px solid blue;
+    padding: 0.5rem 1rem 0 1rem;
+    /* color: #837f8a; */
+    color: #333;
+    font-weight: 500;
+    /* border: 2px solid blue; */
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    background: #eef9ff;
+    border-radius: 3px;
 }
 
 .service .service-row:nth-child(2) .service-col .service-title{
