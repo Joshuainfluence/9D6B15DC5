@@ -754,3 +754,45 @@ ul li .registerBtn:hover{
 .service .service-row:nth-child(2) .service-col .service-body-content{
     text-align: center;
 }
+
+.testimonial{
+    width: 80%;
+    margin: 5% 0 0 10%;
+}
+
+.testimonial-title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.testimonial-title h2{
+    color: #111;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.testimonial .testimonial-row:nth-child(2){
+    width: 100%;
+    display: flex;
+    
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.testimonial .testimonial-row:nth-child(2) .testimonial-col{
+    width: 31%;
+    height: 400px;
+    padding: 0.5rem 1rem 0 1rem;
+    /* color: #837f8a; */
+    color: #333;
+    font-weight: 500;
+    border: 2px solid blue;
+    margin-top: 1.5rem;
+    /* margin-left: 1.5rem; */
+    background: #eef9ff;
+    border-radius: 3px;
+}
+
+.testimonial .testimonial-row:nth-child(2) .testimonial-col .testimonial-title{
+    margin: 1.5rem 0 0 0;
+}
+.testimonial .testimonial-row:nth-child(2) .testimonial-col .testimonial-body-content{
+    text-align: center;
+}
