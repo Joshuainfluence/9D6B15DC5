@@ -792,8 +792,8 @@ ul li .registerBtn:hover {
 
 .testimonial .testimonial-row:nth-child(2) .testimonial-col {
     width: 31.5%;
-    height: 400px;
-    padding: 0.5rem 1rem 0 1rem;
+    /* height: 450px; */
+    padding: 0.5rem 1rem 3rem 1rem;
     /* color: #837f8a; */
     color: #333;
     font-weight: 500;
@@ -803,7 +803,7 @@ ul li .registerBtn:hover {
     /* margin-left: 1.5rem; */
     background: #eef9ff;
     border-radius: 3px;
-    transition: 0.3s ease-in;
+    /* transition: 1.3s ease-in; */
 }
 
 .testimonial .testimonial-row:nth-child(2) .testimonial-col .testimonial-title {
@@ -848,9 +848,10 @@ ul li .registerBtn:hover {
 .testimonial .testimonial-row:nth-child(2) .testimonial-col:hover {
    
     box-shadow:  0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-    
+    cursor: pointer;
     background: #fff;
     border-radius: 3px;
+    /* transform: rotate(90deg); */
 }
 
 .testimonial .testimonial-row:nth-child(2) .testimonial-col .testimonial-body-content {
